@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Roboto+Condensed:ital,wght@1,700&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family:  sans-serif;
+}
+header{
+display: flex;
+flex-direction: row;
+justify-content: center;
+   background-color: rgb(246, 255, 0);
+   width: 100%;
+   height: 60px;
+   text-align: center;
+border: solid;
+border-color: blue;
+
+}
+header h1{
+    position: relative;
+    left: -530px;
+    top: 10px;
+    color: green;
+    font-size: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+header a{
+    
+  color: black;  
+  font-size: 25px;
+  margin-right: 9px;
+  position: relative;
+  top: 10px;
+  text-decoration: none;
+  
+
+}
+
+.escudo{
+ position: relative;
+ left: -600px;   
+ width: 30px;
+ height: 50px;
+}
+
+.noticias{
+    margin-top: 15px;
+display: flex;
+flex-direction: column;
+justify-content:flex-start;
+margin-left: 15px;
+}
+
+.noticia1{
+    height: 30px;
+    width: 100%;
+display: flex; 
+flex-direction: row;    
+
+}
+
+.noticia1img{
+width: 400px;
+height: 400px;   
+}
+.noticia1 h1{
+    font-size:30px;
+    margin-left: 20px;
+}
+
+.texto{
+ display: flex; 
+ flex-direction: column;  
+}
+
+.texto p{
+    margin-left: 10px;
+}
+
+button{
+    background-color: rgb(0, 47, 255);
+    width: 100px;
+ margin-left: 30px;
+    border-radius: 45px;
+border: solid;
+border-color: rgb(10, 10, 10);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.noticia2{
+    height: 30px;
+    width: 100%;
+display: flex; 
+flex-direction: row;    
+position: relative;
+bottom: -450px;
+
+}
+
+.noticia2img{
+    margin-left: 15px;
+width: 400px;
+height: 400px;   
+}
+.noticia2 h1{
+    font-size:30px;
+    margin-left: 20px;
+}
+
+
+.texto2{
+ display: flex; 
+ flex-direction: column;  
+}
+
+.texto2 p{
+    margin-left: 10px;
+}
+
+button{
+    background-color: rgb(0, 47, 255);
+    width: 100px;
+ margin-left: 30px;
+    border-radius: 45px;
+border: solid;
+border-color: rgb(10, 10, 10);
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+.botao2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.traco{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color:green;
+    bottom: -400px;
+}
+
+.ab{
+    position: relative;
+    top: 820px;
+    color: white;
+}
+
+.as{
+   position: relative;
+   left: -100px; 
+}
